@@ -7,7 +7,7 @@ for fruit in fruit_list:
         continue
     print(f"Skipped orange, current fruit: {fruit}")
 
-for _ in range(4):  # Использую другой диапазон
+for _ in range(4):  
     print("Loop Iteration")
 
 for fruit in fruit_list:
@@ -16,5 +16,5 @@ for fruit in fruit_list:
         break
     print(f"Fruit before stop: {fruit}")
 
-for _ in [10, 20, 30]:  # Просто другая структура для прохода
-    pass  # Пустой блок для синтаксического примера
+for _ in [10, 20, 30]:  
+    pass 
