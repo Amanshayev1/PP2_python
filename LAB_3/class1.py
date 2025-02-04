@@ -8,5 +8,6 @@ class MyString:
     def printString(self):
         print(self.text.upper())
         
-MyString().getString()
-MyString().printString()
+my_string = MyString()
+my_string.getString()
+my_string.printString()
