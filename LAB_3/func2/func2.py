@@ -102,17 +102,17 @@ def average_imdb_by_category(movies, category_name):
     category_movies = movies_by_category(movies, category_name)
     return average_imdb(category_movies)
 
-# Example usage
-print(is_high_score({"name": "Dark Knight", "imdb": 9.0, "category": "Adventure"}))  # True
+
+print(is_high_score({"name": "Dark Knight", "imdb": 9.0, "category": "Adventure"}))  
 
 print("Next...")
-print(movies_above_threshold(movies))  # Sublist of movies with an IMDB score above 5.5
+print(movies_above_threshold(movies)) 
 
 print("Next...")
-print(movies_by_category(movies, "Romance"))  # Movies in the Romance category
+print(movies_by_category(movies, "Romance"))  
 
 print("Next...")
-print(average_imdb(movies))  # Average IMDB score of all movies
+print(average_imdb(movies)) 
 
 print("Next...")
-print(average_imdb_by_category(movies, "Romance"))  # Average IMDB score of Romance movies
+print(average_imdb_by_category(movies, "Romance"))  
